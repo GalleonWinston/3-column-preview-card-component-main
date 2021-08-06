@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca";
+  font-size: 15px;
+}
+
+.container {
+  padding: 90px 6.5%;
+}
+
+.card {
+  padding: 45px;
+}
+
+.card__image {
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px;
+}
+
+.card__h1 {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.card__p {
+  margin-top: 40px;
+  line-height: 1.55;
+}
+
+.card__btn {
+  font-family: "lexend Deca";
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  padding: 10px 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.card--brightOrange {
+  background-color: #e38826;
+  border-radius: 5px 5px 0 0;
+}
+
+.card--brightOrange .card__image {
+  background-image: url(../images/icon-sedans.svg);
+}
+
+.card--brightOrange button {
+  color: #e38826;
+}
+
+.card--brightOrange button:hover {
+  background-color: #e38826;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card--darkCyan {
+  background-color: #006970;
+}
+
+.card--darkCyan .card__image {
+  background-image: url(../images/icon-suvs.svg);
+}
+
+.card--darkCyan button {
+  color: #006970;
+}
+
+.card--darkCyan button:hover {
+  background-color: #006970;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card--veryDarkCyan {
+  background-color: #004241;
+  border-radius: 0 0 5px 5px;
+}
+
+.card--veryDarkCyan .card__image {
+  background-image: url(../images/icon-luxury.svg);
+}
+
+.card--veryDarkCyan button {
+  color: #004241;
+}
+
+.card--veryDarkCyan button:hover {
+  background-color: #004241;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #3e52a3;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 1080px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .card--brightOrange {
+    border-radius: 10px 0 0 10px;
+  }
+  .card--veryDarkCyan {
+    border-radius: 0 10px 10px 0;
+  }
+  .card__btn {
+    margin-top: 80px;
+  }
+  .card {
+    padding: 45px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

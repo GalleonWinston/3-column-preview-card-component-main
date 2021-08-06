@@ -1,0 +1,28 @@
+@media (min-width: 1080px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        max-width: 1200px;
+        margin: auto; 
+    }
+
+    .card--brightOrange {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card--veryDarkCyan {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card__btn {
+        margin-top: 80px;
+    }
+
+    .card {
+        padding: 45px;
+    }
+
+}

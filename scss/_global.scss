@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $veryLightGray;
+    color: $transparentWhite;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+}
+
+.container {
+    padding: 90px 6.5%;
+}
+
+.card {
+    padding: 45px;
+    
+    &__image {
+        background-repeat: no-repeat;
+        height: 80px;
+        width: 80px;
+    }
+
+    &__h1 {
+        font-family: "Big Shoulders Display";
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    &__p {
+        margin-top: 40px;
+        line-height: 1.55;
+    }
+
+    &__btn {
+        font-family: "lexend Deca";
+        border-radius: 30px;
+        border: 2px solid $transparentWhite;
+        padding: 10px 20px;
+        margin-top: 30px;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+.card--brightOrange {
+    background-color: $brightOrange;
+    border-radius: 5px 5px 0 0;
+
+    .card__image {
+    background-image: url(../images/icon-sedans.svg);
+    }
+
+    button {
+        color: $brightOrange;
+    }
+
+    button:hover {
+        background-color: $brightOrange;
+        color: $transparentWhite;        
+    }
+}
+
+.card--darkCyan {
+    background-color: $darkCyan;
+
+    .card__image {
+        background-image: url(../images/icon-suvs.svg);
+    }
+
+    button {
+        color: $darkCyan;
+    }
+
+    button:hover {
+        background-color: $darkCyan;
+        color: $transparentWhite;
+    }
+}
+
+.card--veryDarkCyan {
+    background-color: $veryDarkCyan;
+    border-radius: 0 0 5px 5px;
+
+    .card__image {
+        background-image: url(../images/icon-luxury.svg);
+    }
+
+    button {
+        color: $veryDarkCyan;
+    }
+
+    button:hover {
+        background-color: $veryDarkCyan;
+        color: $transparentWhite;
+    }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(228, 45%, 44%); 
+
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
